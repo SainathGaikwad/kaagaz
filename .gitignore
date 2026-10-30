@@ -1,0 +1,14 @@
+.env
+.streamlit/secrets.toml
+kaagaz_cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.sqlite
+/dist/
+/build/
+*.egg-info/
+/out/
+.venv/
+kaagaz_cache_export.zip
+*.webm

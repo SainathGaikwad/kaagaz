@@ -1,0 +1,74 @@
+From 26c2f36635de85f059628aa10d4a49d413ec8c7b Mon Sep 17 00:00:00 2001
+From: Sainath Gaikwad <gaikwadsainath738@gmail.com>
+Date: Tue, 27 Oct 2026 15:23:41 +0000
+Subject: [PATCH] Ship the concordance inside the package so titles survive a
+ pip install
+
+rihai/law/data/ now holds the two GSMS-B concordance files and pyproject declares them as package data; data/law/ keeps
+verified.jsonl and the exported law_table.jsonl. A pip install from git now shows section titles instead of (untitled).
+
+Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_013LeBLbLfrwMiYd4Qj8q7Y3
+---
+ pyproject.toml                                           | 3 +++
+ {data/law => rihai/law/data}/concordance_bns_to_ipc.json | 0
+ {data/law => rihai/law/data}/concordance_ipc_to_bns.json | 0
+ rihai/law/table.py                                       | 7 ++++---
+ 4 files changed, 7 insertions(+), 3 deletions(-)
+ rename {data/law => rihai/law/data}/concordance_bns_to_ipc.json (100%)
+ rename {data/law => rihai/law/data}/concordance_ipc_to_bns.json (100%)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index f2ab9e7..137a3d0 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -21,3 +21,6 @@ build-backend = "setuptools.build_meta"
+ 
+ [tool.setuptools.packages.find]
+ include = ["rihai*"]
++
++[tool.setuptools.package-data]
++rihai = ["law/data/*.json"]
+diff --git a/data/law/concordance_bns_to_ipc.json b/rihai/law/data/concordance_bns_to_ipc.json
+similarity index 100%
+rename from data/law/concordance_bns_to_ipc.json
+rename to rihai/law/data/concordance_bns_to_ipc.json
+diff --git a/data/law/concordance_ipc_to_bns.json b/rihai/law/data/concordance_ipc_to_bns.json
+similarity index 100%
+rename from data/law/concordance_ipc_to_bns.json
+rename to rihai/law/data/concordance_ipc_to_bns.json
+diff --git a/rihai/law/table.py b/rihai/law/table.py
+index a753a47..bc50367 100644
+--- a/rihai/law/table.py
++++ b/rihai/law/table.py
+@@ -18,7 +18,8 @@ from typing import Optional
+ 
+ from . import punishments_bns, punishments_ipc, punishments_special
+ 
+-DATA_DIR = Path(__file__).resolve().parents[2] / "data" / "law"
++DATA_DIR = Path(__file__).resolve().parents[2] / "data" / "law"      # verified.jsonl (reviewer ticks) and the exported table
++PKG_DATA = Path(__file__).resolve().parent / "data"                   # the concordance, shipped inside the package
+ 
+ ACT_ALIASES = {
+     "BNS": "BNS", "BHARATIYA NYAYA SANHITA": "BNS", "BNS 2023": "BNS", "BNS,2023": "BNS",
+@@ -116,7 +117,7 @@ def _norm_section(section: str) -> str:
+ def _concordance() -> tuple[dict, dict]:
+     """Returns (bns_titles, ipc_titles) keyed by bare section -> {title, chapter, equivalent}."""
+     bns, ipc = {}, {}
+-    p = DATA_DIR / "concordance_bns_to_ipc.json"
++    p = PKG_DATA / "concordance_bns_to_ipc.json"
+     if p.exists():
+         for r in json.loads(p.read_text(encoding="utf-8")):
+             src, tgt = r.get("source") or {}, r.get("target") or {}
+@@ -124,7 +125,7 @@ def _concordance() -> tuple[dict, dict]:
+             if sec and sec not in bns:
+                 bns[sec] = {"title": src.get("title", ""), "chapter": src.get("chapter", ""),
+                             "equivalent": (str(tgt.get("section")) if tgt else None)}
+-    p = DATA_DIR / "concordance_ipc_to_bns.json"
++    p = PKG_DATA / "concordance_ipc_to_bns.json"
+     if p.exists():
+         for r in json.loads(p.read_text(encoding="utf-8")):
+             src, tgt = r.get("source") or {}, r.get("target") or {}
+-- 
+2.43.0
+

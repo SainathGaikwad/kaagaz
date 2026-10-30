@@ -1,0 +1,166 @@
+{
+ "images": [
+  "register_mr_photo.jpg"
+ ],
+ "page_read": {
+  "page_kind": "utrc_list",
+  "language": "mr",
+  "period_or_date": "तिमाही समाप्त ३०/०९/२०२६",
+  "rows": [
+   {
+    "row_no": 1,
+    "identifier": "ब.क्र. ४५१२",
+    "charges": [
+     {
+      "act": "BNS",
+      "section": "303(2)",
+      "as_printed": "भा.न्या.सं. ३०३(२)"
+     }
+    ],
+    "custody_start": "2025-03-12",
+    "custody_start_as_printed": "१२/०३/२०२५",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "प्र.न्या.दं. पुणे, आर.सी.सी. ४०१/२०२५",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 2,
+    "identifier": "ब.क्र. ४५२०",
+    "charges": [
+     {
+      "act": "IPC",
+      "section": "380",
+      "as_printed": "भा.दं.वि. ३८०, ४५७"
+     },
+     {
+      "act": "IPC",
+      "section": "457",
+      "as_printed": "भा.दं.वि. ३८०, ४५७"
+     }
+    ],
+    "custody_start": "2023-08-05",
+    "custody_start_as_printed": "०५/०८/२०२३",
+    "first_time_offender": "no",
+    "other_cases_pending": "no",
+    "court": "सत्र न्यायालय पुणे, एस.सी. ८८/२०२४",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 3,
+    "identifier": "ब.क्र. ४५३३",
+    "charges": [
+     {
+      "act": "BNS",
+      "section": "318(4)",
+      "as_printed": "भा.न्या.सं. ३१८(४)"
+     }
+    ],
+    "custody_start": "2024-09-20",
+    "custody_start_as_printed": "२०/०९/२०२४",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "मु.न्या.दं. पुणे, आर.सी.सी. ९९०/२०२४",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 4,
+    "identifier": "ब.क्र. ४५४७",
+    "charges": [
+     {
+      "act": "NDPS",
+      "section": "20(b)(ii)(b)",
+      "as_printed": "एन.डी.पी.एस. २०(ब)(ii)(ब)"
+     }
+    ],
+    "custody_start": "2023-11-03",
+    "custody_start_as_printed": "०३/११/२०२३",
+    "first_time_offender": "yes",
+    "other_cases_pending": "yes",
+    "court": "विशेष न्यायालय पुणे, एस.सी. १२/२०२४",
+    "legible": true,
+    "notes": "खडकी पो.ठा. गुन्हा प्रलंबित"
+   },
+   {
+    "row_no": 5,
+    "identifier": "ब.क्र. ४५६०",
+    "charges": [
+     {
+      "act": "IPC",
+      "section": "307",
+      "as_printed": "भा.दं.वि. ३०७"
+     }
+    ],
+    "custody_start": "2023-01-18",
+    "custody_start_as_printed": "१८/०१/२०२३",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "सत्र न्यायालय पुणे, एस.सी. ४०/२०२३",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 6,
+    "identifier": "ब.क्र. ४५७८",
+    "charges": [
+     {
+      "act": "BNS",
+      "section": "115(2)",
+      "as_printed": "भा.न्या.सं. ११५(२), ३५१(३)"
+     },
+     {
+      "act": "BNS",
+      "section": "351(3)",
+      "as_printed": "भा.न्या.सं. ११५(२), ३५१(३)"
+     }
+    ],
+    "custody_start": "2025-12-25",
+    "custody_start_as_printed": "२५/१२/२०२५",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "प्र.न्या.दं. पुणे, आर.सी.सी. १५०/२०२६",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 7,
+    "identifier": "ब.क्र. ४५९१",
+    "charges": [
+     {
+      "act": "BNS",
+      "section": "303",
+      "as_printed": "भा.न्या.सं. ३०३"
+     }
+    ],
+    "custody_start": "2025-06-07",
+    "custody_start_as_printed": "०७/०६/२०२५",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "प्र.न्या.दं. पुणे, आर.सी.सी. ७१२/२०२५",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 8,
+    "identifier": "ब.क्र. ४६०३",
+    "charges": [
+     {
+      "act": "MPA",
+      "section": "65(e)",
+      "as_printed": "म.दा.का. ६५(ई)"
+     }
+    ],
+    "custody_start": "2026-04-14",
+    "custody_start_as_printed": "१४/०४/२०२६",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "प्र.न्या.दं. पुणे, आर.सी.सी. ४३०/२०२६",
+    "legible": true,
+    "notes": ""
+   }
+  ]
+ }
+}

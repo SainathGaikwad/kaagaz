@@ -1,0 +1,140 @@
+{
+ "images": [
+  "register_worn.jpg"
+ ],
+ "page_read": {
+  "page_kind": "undertrial_register",
+  "language": "en",
+  "period_or_date": "as on 30/09/2026",
+  "rows": [
+   {
+    "row_no": 1,
+    "identifier": "UTP 7718",
+    "charges": [
+     {
+      "act": "IPC",
+      "section": "392",
+      "as_printed": "IPC 392, 34"
+     },
+     {
+      "act": "IPC",
+      "section": "34",
+      "as_printed": "IPC 392, 34"
+     }
+    ],
+    "custody_start": "2022-05-09",
+    "custody_start_as_printed": "09/05/2022",
+    "first_time_offender": "no",
+    "other_cases_pending": "no",
+    "court": "",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 2,
+    "identifier": "UTP 7725",
+    "charges": [
+     {
+      "act": "BNS",
+      "section": "309(4)",
+      "as_printed": "BNS 309(4)"
+     }
+    ],
+    "custody_start": "2024-10-30",
+    "custody_start_as_printed": "30/10/2024",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 3,
+    "identifier": "UTP 7731",
+    "charges": [
+     {
+      "act": "IPC",
+      "section": "457",
+      "as_printed": "IPC 457, 380"
+     },
+     {
+      "act": "IPC",
+      "section": "380",
+      "as_printed": "IPC 457, 380"
+     }
+    ],
+    "custody_start": "",
+    "custody_start_as_printed": "",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "",
+    "legible": false,
+    "notes": "date of admission smudged"
+   },
+   {
+    "row_no": 4,
+    "identifier": "UTP 7740",
+    "charges": [
+     {
+      "act": "BNS",
+      "section": "64",
+      "as_printed": "BNS 64"
+     }
+    ],
+    "custody_start": "2024-12-12",
+    "custody_start_as_printed": "12/12/2024",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 5,
+    "identifier": "UTP 7752",
+    "charges": [
+     {
+      "act": "IPC",
+      "section": "498A",
+      "as_printed": "IPC 498A, 323"
+     },
+     {
+      "act": "IPC",
+      "section": "323",
+      "as_printed": "IPC 498A, 323"
+     }
+    ],
+    "custody_start": "2023-07-02",
+    "custody_start_as_printed": "02/07/2023",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 6,
+    "identifier": "UTP 7760",
+    "charges": [
+     {
+      "act": "BNS",
+      "section": "303(2)",
+      "as_printed": "BNS 303(2), 317(2)"
+     },
+     {
+      "act": "BNS",
+      "section": "317(2)",
+      "as_printed": "BNS 303(2), 317(2)"
+     }
+    ],
+    "custody_start": "2025-02-14",
+    "custody_start_as_printed": "14/02/2025",
+    "first_time_offender": "yes",
+    "other_cases_pending": "yes",
+    "court": "",
+    "legible": true,
+    "notes": "row struck out; remark: Released 20/08/2026"
+   }
+  ]
+ }
+}

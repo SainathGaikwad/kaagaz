@@ -1,0 +1,7 @@
+openai>=1.50
+python-dotenv>=1.0
+pillow>=10
+pypdfium2>=4.30
+pandas>=2.0
+streamlit>=1.38
+rihai @ git+https://github.com/SainathGaikwad/rihai@main

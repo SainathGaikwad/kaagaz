@@ -1,0 +1,227 @@
+{
+ "images": [
+  "register_en_clean.png"
+ ],
+ "page_read": {
+  "page_kind": "utrc_list",
+  "language": "en",
+  "period_or_date": "quarter ending 30/09/2026",
+  "rows": [
+   {
+    "row_no": 1,
+    "identifier": "UTP-2026/0417",
+    "charges": [
+     {
+      "act": "BNS",
+      "section": "303(2)",
+      "as_printed": "BNS 303(2)"
+     }
+    ],
+    "custody_start": "2025-01-10",
+    "custody_start_as_printed": "10/01/2025",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "JMFC Pune, RCC 221/2025",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 2,
+    "identifier": "UTP-2026/0533",
+    "charges": [
+     {
+      "act": "IPC",
+      "section": "379",
+      "as_printed": "IPC 379, 34"
+     },
+     {
+      "act": "IPC",
+      "section": "34",
+      "as_printed": "IPC 379, 34"
+     }
+    ],
+    "custody_start": "2024-03-22",
+    "custody_start_as_printed": "22/03/2024",
+    "first_time_offender": "no",
+    "other_cases_pending": "no",
+    "court": "JMFC Pune, RCC 1180/2024",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 3,
+    "identifier": "UTP-2026/0611",
+    "charges": [
+     {
+      "act": "BNS",
+      "section": "318(4)",
+      "as_printed": "BNS 318(4), 316(2)"
+     },
+     {
+      "act": "BNS",
+      "section": "316(2)",
+      "as_printed": "BNS 318(4), 316(2)"
+     }
+    ],
+    "custody_start": "2025-03-01",
+    "custody_start_as_printed": "01/03/2025",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "CJM Pune, RCC 342/2025",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 4,
+    "identifier": "UTP-2026/0698",
+    "charges": [
+     {
+      "act": "NDPS",
+      "section": "8(c)",
+      "as_printed": "NDPS 8(c) r/w 20(b)(ii)(B)"
+     },
+     {
+      "act": "NDPS",
+      "section": "20(b)(ii)(B)",
+      "as_printed": "NDPS 8(c) r/w 20(b)(ii)(B)"
+     }
+    ],
+    "custody_start": "2024-11-15",
+    "custody_start_as_printed": "15/11/2024",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "Spl. Judge (NDPS) Pune, SC 55/2025",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 5,
+    "identifier": "UTP-2026/0702",
+    "charges": [
+     {
+      "act": "IPC",
+      "section": "420",
+      "as_printed": "IPC 420, 467, 468, 471"
+     },
+     {
+      "act": "IPC",
+      "section": "467",
+      "as_printed": "IPC 420, 467, 468, 471"
+     },
+     {
+      "act": "IPC",
+      "section": "468",
+      "as_printed": "IPC 420, 467, 468, 471"
+     },
+     {
+      "act": "IPC",
+      "section": "471",
+      "as_printed": "IPC 420, 467, 468, 471"
+     }
+    ],
+    "custody_start": "2023-06-05",
+    "custody_start_as_printed": "05/06/2023",
+    "first_time_offender": "yes",
+    "other_cases_pending": "yes",
+    "court": "Sessions Court Pune, SC 410/2023",
+    "legible": true,
+    "notes": "Another case at Khadki PS"
+   },
+   {
+    "row_no": 6,
+    "identifier": "UTP-2026/0745",
+    "charges": [
+     {
+      "act": "BNS",
+      "section": "137(2)",
+      "as_printed": "BNS 137(2)"
+     }
+    ],
+    "custody_start": "2025-08-20",
+    "custody_start_as_printed": "20/08/2025",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "Sessions Court Pune, SC 120/2025",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 7,
+    "identifier": "UTP-2026/0788",
+    "charges": [
+     {
+      "act": "ARMS",
+      "section": "25(1-B)(a)",
+      "as_printed": "Arms Act 25(1-B)(a)"
+     }
+    ],
+    "custody_start": "2026-02-02",
+    "custody_start_as_printed": "02/02/2026",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "JMFC Pune, RCC 77/2026",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 8,
+    "identifier": "UTP-2026/0801",
+    "charges": [
+     {
+      "act": "IPC",
+      "section": "326",
+      "as_printed": "IPC 326"
+     }
+    ],
+    "custody_start": "2024-04-18",
+    "custody_start_as_printed": "18/04/2024",
+    "first_time_offender": "no",
+    "other_cases_pending": "no",
+    "court": "Sessions Court Pune, SC 300/2024",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 9,
+    "identifier": "UTP-2026/0812",
+    "charges": [
+     {
+      "act": "BNS",
+      "section": "115(2)",
+      "as_printed": "BNS 115(2), 351(3)"
+     },
+     {
+      "act": "BNS",
+      "section": "351(3)",
+      "as_printed": "BNS 115(2), 351(3)"
+     }
+    ],
+    "custody_start": "2025-09-11",
+    "custody_start_as_printed": "11/09/2025",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "JMFC Pune, RCC 905/2025",
+    "legible": true,
+    "notes": ""
+   },
+   {
+    "row_no": 10,
+    "identifier": "UTP-2026/0830",
+    "charges": [
+     {
+      "act": "MPA",
+      "section": "65(e)",
+      "as_printed": "MPA 65(e)"
+     }
+    ],
+    "custody_start": "2026-07-29",
+    "custody_start_as_printed": "29/07/2026",
+    "first_time_offender": "yes",
+    "other_cases_pending": "no",
+    "court": "JMFC Pune, RCC 1300/2026",
+    "legible": true,
+    "notes": ""
+   }
+  ]
+ }
+}

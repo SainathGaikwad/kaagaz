@@ -1,0 +1,34 @@
+{
+ "images": [
+  "court_order_sample.pdf"
+ ],
+ "order_read": {
+  "court": "Court of the Additional Sessions Judge, Pune",
+  "case_reference": "Criminal Bail Application No. 1234 of 2026",
+  "order_date": "2026-10-20",
+  "charges": [
+   {
+    "act": "IPC",
+    "section": "379",
+    "as_printed": "Sections 379 and 411 read with Section 34 of the Indian Penal Code"
+   },
+   {
+    "act": "IPC",
+    "section": "411",
+    "as_printed": "Sections 379 and 411 read with Section 34 of the Indian Penal Code"
+   },
+   {
+    "act": "IPC",
+    "section": "34",
+    "as_printed": "Sections 379 and 411 read with Section 34 of the Indian Penal Code"
+   }
+  ],
+  "custody_start": "2024-03-14",
+  "first_time_offender": "yes",
+  "other_cases_pending": "no",
+  "section_479_invoked": true,
+  "decision": "released_on_bond",
+  "decision_quote": "The application is allowed. The applicant shall be released on his executing a personal bond of Rs. 15,000/- (Rupees fifteen thousand only), without sureties, to the satisfaction of the learned trial court.",
+  "period_served_quote": "the applicant has undergone detention for a period of two years, six months and seventeen days as on that date"
+ }
+}
