@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import io
 import json
+import os
 from datetime import date
 from pathlib import Path
 
@@ -17,7 +18,16 @@ import streamlit as st
 
 from kaagaz import __version__
 from kaagaz.images import load_pages
-from kaagaz.model import FakeModel, MuseSpark, ReplayCache, load_api_key
+from kaagaz.model import FakeModel, MuseSpark, ReplayCache, load_api_key, load_dotenv_files
+
+load_dotenv_files()   # so KAAGAZ_BASE_URL / KAAGAZ_MODEL from .env take effect locally
+# On Streamlit Cloud the provider settings come from st.secrets; mirror them into the environment the model layer reads.
+for _k in ("MODEL_API_KEY", "KAAGAZ_BASE_URL", "KAAGAZ_MODEL", "KAAGAZ_STRUCTURED", "KAAGAZ_TEMPERATURE", "KAAGAZ_AUDIT_TEMPERATURE"):
+    try:
+        if _k not in os.environ and _k in st.secrets:
+            os.environ[_k] = str(st.secrets[_k])
+    except Exception:
+        pass
 from kaagaz.orders import replay_order
 from kaagaz.pipeline import RunReport, reassess, run
 
@@ -49,7 +59,7 @@ with st.sidebar:
     as_of = st.date_input("Assess as on", date.today())
     audit = st.checkbox("Second, independent read (audit)", True,
                         help="The page is read twice with different instructions; a row is accepted only when both reads agree.")
-    model_name = st.text_input("Model", "muse-spark-1.3")
+    model_name = st.text_input("Model", os.environ.get("KAAGAZ_MODEL", "accounts/fireworks/models/muse-spark-open"))
     key_present = bool(load_api_key())
     if mode.startswith("Muse"):
         st.write("API key:", "found" if key_present else "**missing** - put MODEL_API_KEY in .env or .streamlit/secrets.toml")
